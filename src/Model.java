@@ -147,32 +147,32 @@ public class Model {
                 if(Data.isEmpty() || Data.replaceAll(" ","").equals("")){
                     Data =sdf.format(new Date());
                 }
-                System.out.println("please input the Title value of in DESCRIPTION , use \"test_title\" default: ");
+                System.out.println("please input the Title value of DESCRIPTION , use \"test_title\" default: ");
                 String Title = scanner.nextLine();
                 if(Title.isEmpty() || Title.replaceAll(" ","").equals("")){
                     Title ="test_title";
                 }
-                System.out.println("please input the Author value of in DESCRIPTION ( like \" Ericwyn Chen (Ericwyn.chen@gmail.com)\" ,use \"admin (admin@admin.com) default\"): ");
+                System.out.println("please input the Author value of DESCRIPTION ( like \" Ericwyn Chen (Ericwyn.chen@gmail.com)\" ,use \"admin (admin@admin.com) default\"): ");
                 String Author = scanner.nextLine();
                 if(Author.isEmpty() || Author.replaceAll(" ","").equals("")){
                     Author ="admin <admin@admin.com>";
                 }
-                System.out.println("please input the Maintainer value of in DESCRIPTION ( like \" Ericwyn Chen (Ericwyn.chen@gmail.com)\" ,use \"admin (admin@admin.com) default\"): ");
+                System.out.println("please input the Maintainer value of DESCRIPTION ( like \" Ericwyn Chen (Ericwyn.chen@gmail.com)\" ,use \"admin (admin@admin.com) default\"): ");
                 String Maintainer = scanner.nextLine();
                 if(Maintainer.isEmpty() || Maintainer.replaceAll(" ","").equals("")){
                     Maintainer ="admin <admin@admin.com>";
                 }
-                System.out.println("please input the Depends value of in DESCRIPTION ( like \"R (>= 1.9.0)\" ),use \"R (>= 1.9.0)\" default : ");
+                System.out.println("please input the Depends value of DESCRIPTION ( like \"R (>= 1.9.0)\" ),use \"R (>= 1.9.0)\" default : ");
                 String Depends = scanner.nextLine();
                 if(Depends.isEmpty() || Depends.replaceAll(" ","").equals("")){
                     Depends ="R (>= 1.9.0)";
                 }
-                System.out.println("please input the Description value of in DESCRIPTION : ");
+                System.out.println("please input the Description value of DESCRIPTION : ");
                 String Description = scanner.nextLine();
                 if(Description.isEmpty() || Description.replaceAll(" ","").equals("")){
                     Description ="the package auto packing by APOR (https://www.github.com/Ericwyn/AutoPackingR) ";
                 }
-                System.out.println("please input the License value of in DESCRIPTION ( like \"GPL version 2 or later\" ) , use \"GPL version 2 or later\" default : ");
+                System.out.println("please input the License value of DESCRIPTION ( like \"GPL version 2 or later\" ) , use \"GPL version 2 or later\" default : ");
                 String License = scanner.nextLine();
                 if(License.isEmpty() || License.replaceAll(" ","").equals("")){
                     License ="GPL version 2 or later";

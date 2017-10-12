@@ -4,23 +4,23 @@ please input a full path of R language file
 testfun.R
 please input a full path of R language file , or input the "n" to start build R package folder:
 n
-please input the Package value of in DESCRIPTION , use "Test Package" default :
+please input the Package value of DESCRIPTION , use "Test Package" default :
 testfun
-please input the Version value of in DESCRIPTION ( like "0.1" ):
+please input the Version value of DESCRIPTION ( like "0.1" ):
 
-please input the Date value of in DESCRIPTION ( like "1997-05-04" ) ,use "2017-10-12"default:
+please input the Date value of DESCRIPTION ( like "1997-05-04" ) ,use "2017-10-12"default:
 
-please input the Title value of in DESCRIPTION , use "test_title" default:
+please input the Title value of DESCRIPTION , use "test_title" default:
 
-please input the Author value of in DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
+please input the Author value of DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
 
-please input the Maintainer value of in DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
+please input the Maintainer value of DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
 
-please input the Depends value of in DESCRIPTION ( like "R (>= 1.9.0)" ),use "R (>= 1.9.0)" default :
+please input the Depends value of DESCRIPTION ( like "R (>= 1.9.0)" ),use "R (>= 1.9.0)" default :
 
-please input the Description value of in DESCRIPTION :
+please input the Description value of DESCRIPTION :
 
-please input the License value of in DESCRIPTION ( like "GPL version 2 or later" ) , use "GPL version 2 or later" default :
+please input the License value of DESCRIPTION ( like "GPL version 2 or later" ) , use "GPL version 2 or later" default :
 
 ================================
 
