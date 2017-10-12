@@ -1,0 +1,136 @@
+please input the full path about empty folder for package build :
+/home/ericwyn/work/chance
+please input a full path of R language file
+testfun.R
+please input a full path of R language file , or input the "n" to start build R package folder:
+n
+please input the Package value of in DESCRIPTION , use "Test Package" default :
+testfun
+please input the Version value of in DESCRIPTION ( like "0.1" ):
+
+please input the Date value of in DESCRIPTION ( like "1997-05-04" ) ,use "2017-10-12"default:
+
+please input the Title value of in DESCRIPTION , use "test_title" default:
+
+please input the Author value of in DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
+
+please input the Maintainer value of in DESCRIPTION ( like " Ericwyn Chen (Ericwyn.chen@gmail.com)" ,use "admin (admin@admin.com) default"):
+
+please input the Depends value of in DESCRIPTION ( like "R (>= 1.9.0)" ),use "R (>= 1.9.0)" default :
+
+please input the Description value of in DESCRIPTION :
+
+please input the License value of in DESCRIPTION ( like "GPL version 2 or later" ) , use "GPL version 2 or later" default :
+
+================================
+
+create R package floder success
+
+the path : /home/ericwyn/work/chance
+
+ and now , open the R CMD check
+
+================================
+
+* using log directory ‘/media/ericwyn/Work/Chaos/IntiliJ Java Project/AutoPackingOfR/chance.Rcheck’
+* using R version 3.4.0 (2017-04-21)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘chance/DESCRIPTION’ ... OK
+* this is package ‘testfun’ version ‘0.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘testfun’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning: 找不到源程序文件
+See ‘/media/ericwyn/Work/Chaos/IntiliJ Java Project/AutoPackingOfR/chance.Rcheck/00install.out’ for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Description field: should contain one or more complete sentences.
+Non-standard license specification:
+  GPL version 2 or later
+Standardizable: TRUE
+Standardized license specification:
+  GPL (>= 2)
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Subdirectory ‘data’ contains no data sets.
+Subdirectory ‘src’ contains no source files.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘oncetest’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+没有找到句法分析过的文件
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+* checking PDF version of manual without hyperrefs or index ... ERROR
+Re-running with no redirection of stdout/stderr.
+You may want to clean up by 'rm -rf /tmp/RtmpwzFO9q/Rd2pdf683d1efd8555'
+* DONE
+Status: 1 ERROR, 5 WARNINGs, 1 NOTE
+
+===========  R CMD check finish  ============
+
+           check successful
+
+       and now ,open the R CMD build
+
+=============================================
+
+* checking for file ‘/home/ericwyn/work/chance/DESCRIPTION’ ... OK
+* preparing ‘testfun’:
+* checking DESCRIPTION meta-information ... OK
+* cleaning src
+* checking for LF line-endings in source and make files
+* checking for empty or unneeded directories
+Removed empty directory ‘testfun/data’
+Removed empty directory ‘testfun/man’
+Removed empty directory ‘testfun/src’
+* building ‘testfun_0.1.tar.gz’
+
+===========  R CMD build finish  ============
+
+                build successful
+
+output dir  : /home/ericwyn/work/chance
+
+=============================================
